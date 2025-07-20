@@ -1,0 +1,14 @@
+@layer utilities {
+
+    /* BG-Colors */
+    /* BG-Claro */
+    .bg-blue-procoinec {
+        background-color: #2A4798;
+    }
+
+    .bg-orange-procoinec {
+        background-color: #e9724c;
+    }
+
+    /* Grises */
+}
