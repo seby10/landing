@@ -1,4 +1,4 @@
-function LandingPageLayout(children:any) {
+function LandingPageLayout(children: unknown) {
     return (
         {children}
     )
