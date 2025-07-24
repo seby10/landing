@@ -3,13 +3,13 @@ import { Instagram, Facebook, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <section className="w-full flex items-center justify-center h-fit">
+    <section className="w-full flex items-center justify-center h-fit min-w-xs">
       <div className="w-full h-full mx-5 bg-blue-procoinec rounded-xl">
-        <div className="w-full px-22 w-ful h-full">
-          <div className="grid grid-cols-2 grid-rows-1 gap-24 py-16">
+        <div className="w-full px-8 xl:px-22 w-ful h-full">
+          <div className="grid gap-24 py-16 xl:grid-cols-2 xl:grid-rows-1">
             <div className="">
               <div>
-                <h2 className="bg-orange-procoinec text-white py-0.5 px-3 rounded-full flex justify-center items-center text-md mb-4 max-w-15">
+                <h2 className="bg-orange-procoinec text-[#EEF5DB] py-0.5 px-3 rounded-full flex justify-center items-center text-md font-bold mb-4 max-w-15">
                   Info
                 </h2>
                 <h3 className="font-[Fira Sans] text-white font-bold text-5xl tracking-tight">
@@ -22,7 +22,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="mt-10 border-b-1 border-[#eef5db15] pb-5">
-                <div className="flex items-center gap-3 mb-5 justify-between">
+                <div className="flex flex-col gap-3 mb-5 sm:flex-row sm:items-center sm:justify-between">
                   <p className="font-[Titillium Web] text-[22px] tracking-tight leading-normal font-semibold text-[#EEF5D8]">
                     Ubicacion
                   </p>
@@ -30,7 +30,7 @@ const Footer = () => {
                     Unidad Nacional y Av.Cevallos, Ambato
                   </p>
                 </div>
-                <div className="flex items-center gap-3 mb-5 justify-between">
+                <div className="flex flex-col gap-3 mb-5 sm:flex-row sm:items-center sm:justify-between">
                   <p className="font-[Titillium Web] text-[22px] tracking-tight leading-normal font-semibold text-[#EEF5DB]">
                     Email
                   </p>
@@ -38,7 +38,7 @@ const Footer = () => {
                     proco@contact.com
                   </p>
                 </div>
-                <div className="flex items-center gap-3 mb-5 justify-between">
+                <div className="flex flex-col gap-3 mb-5 sm:flex-row sm:items-center sm:justify-between">
                   <p className="font-[Titillium Web] text-[22px] tracking-tight leading-normal font-semibold text-[#EEF5DB]">
                     Telefono
                   </p>
