@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <div className="bg-white px-4 py-4 rounded-xl w-full h-full">
+              <div className="bg-white px-4 py-4 rounded-xl w-full h-full animate-slideUp">
                 <div className="flex flex-col items-baseline gap-2 mb-5 justify-center px-2">
                   <p className="font-[Titillium Web] text-[16px] tracking-tight leading-normal font-medium text-[#2A4798]">
                     Nombre <span className="text-[#FF2244]">*</span>

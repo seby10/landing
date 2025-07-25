@@ -26,6 +26,7 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  
 
   return (
     <div className="bg-blue-procoinec w-full h-full relative overflow-clip min-w-xs min-h-screen">
@@ -90,23 +91,23 @@ const Navbar = () => {
       </nav>
       <section className="relative w-full px-15 xl:px-30 max-w-full overflow-clip">
         <div className="flex flex-col items-baseline pb-6 max-w-fit xl:max-w-1/2 pt-10 md:pt-70 xl:pt-20 font-bold">
-          <div className="bg-orange-procoinec text-[#EEF5DB] px-3 py-1.5 rounded-full flex gap-3 justify-between items-center text-sm mb-4 font-bold">
+          <div className="animate-slideUp bg-orange-procoinec text-[#EEF5DB] px-3 py-1.5 rounded-full flex gap-3 justify-between items-center text-sm mb-4 font-bold">
             <span className="relative flex size-3">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white/75"></span>
               <span className="relative inline-flex size-3 rounded-full bg-white"></span>
             </span>
             Gala Corp.
           </div>
-          <h1 className="text-[55px] font-[Exo] text-white mb-4 tracking-tight leading-tight animate-typewriter">
+          <h1 className="overflow-hidden text-[55px] font-[Exo] text-white mb-4 tracking-tight leading-tight animate-typewriter">
             Tu aliado de confianza para tus insumos eléctricos
           </h1>
-          <p className="text-2xl text-[#EEF5DB] mb-4 xl:mb-8 font-[Titillium Web] font-normal tracking-tighter leading-normal xl:max-w-130">
+          <p className="animate-slideUp text-2xl text-[#EEF5DB] mb-4 xl:mb-8 font-[Titillium Web] font-normal tracking-tighter leading-normal xl:max-w-130">
             ProCoineec ofrece suplementos eléctricos de última generación,
             diseñados para optimizar el consumo y proteger tus dispositivos con
             tecnología avanzada.{" "}
           </p>
           <a
-            className="bg-white/10 text-white pl-6 pr-3 py-2.5 rounded-full hover:bg-white hover:text-[#2A4798] transition duration-500 flex gap-7 group items-ce
+            className="animate-slideUp bg-white/10 text-white pl-6 pr-3 py-2.5 rounded-full hover:bg-white hover:text-[#2A4798] transition duration-500 flex gap-7 group items-ce
             nter justify-between items-center font-normal text-lg"
             href="/get-started"
           >
