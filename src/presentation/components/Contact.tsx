@@ -3,7 +3,10 @@ import { Instagram, Facebook, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <section className="w-full flex items-center justify-center h-fit min-w-xs">
+    <section
+      id="contact"
+      className="w-full flex items-center justify-center h-fit min-w-xs"
+    >
       <div className="w-full h-full mx-5 bg-blue-procoinec rounded-xl">
         <div className="w-full px-8 xl:px-22 w-ful h-full">
           <div className="grid gap-24 py-16 xl:grid-cols-2 xl:grid-rows-1">
@@ -96,11 +99,10 @@ const Footer = () => {
                   <p className="font-[Titillium Web] text-[16px] tracking-tight leading-normal font-medium text-[#2A4798]">
                     Comentario <span className="text-[#FF2244]">*</span>
                   </p>
-                  <input
-                    type="text"
-                    className="w-full px-3 py-3 border border-[#dbdad9] bg-[#f5fbee] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#2A4798] focus:border-transparent placeholder-[#10101450] min-h-36"
+                  <textarea
+                    className="w-full px-3 py-3 border border-[#dbdad9] bg-[#f5fbee] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#2A4798] focus:border-transparent placeholder-[#10101450] min-h-36 align-top"
                     placeholder="Me gustaria que agregaran mas productos electricos..."
-                  />
+                  ></textarea>
                 </div>
                 <div className="flex items-center justify-center">
                   <button

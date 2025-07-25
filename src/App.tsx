@@ -2,11 +2,11 @@ import "./presentation/styles/index.css";
 import Navbar from "./presentation/components/Hero";
 import Contact from "./presentation/components/Contact";
 import Footer from "./presentation/components/Footer";
-
+import SmoothScroll from "./presentation/components/SmoothScroll";
 
 function App() {
   return (
-    <div>
+    <SmoothScroll>
       <Navbar />
       <p>some content here</p>
       <Contact />
@@ -17,8 +17,8 @@ function App() {
       {/* <div className="bg-orange-procoinec">
         <p>Papu</p>
       </div> */}
-    </div>
-  )
+    </SmoothScroll>
+  );
 }
 
-export default App
+export default App;
